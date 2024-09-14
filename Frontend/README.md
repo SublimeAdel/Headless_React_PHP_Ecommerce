@@ -226,7 +226,7 @@ Styling is done using **SASS**. The stylesheets are modular and can be found in 
     margin-right: 1rem;
   }
 }
-
+```
 
 ## Installation <a name = "installation"></a>
 
