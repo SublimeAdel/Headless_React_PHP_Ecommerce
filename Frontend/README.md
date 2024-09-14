@@ -211,23 +211,6 @@ API calls are made using fetch API:
   - Shows success on adding/deleting products.
   - Shows errors like "SKU already exists".
 
-## Styling
-
-Styling is done using **SASS**. The stylesheets are modular and can be found in the `/src/styles/` directory.
-
-**Example:**
-
-```scss
-// src/styles/navbar.scss
-.navbar {
-  background-color: #f8f9fa;
-  padding: 1rem;
-  .nav-item {
-    margin-right: 1rem;
-  }
-}
-```
-
 ## Installation <a name = "installation"></a>
 
 **1- Clone the repository**
