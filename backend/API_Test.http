@@ -1,0 +1,25 @@
+GET   https://localhost/backendAPI/main.php
+content-type: application/json
+
+####
+
+POST https://localhost/backendAPI/main.php
+
+    {
+        "sku": "alt00",
+        "name": "productname",
+        "price": 552,
+        "type" : "DVD",
+        "attributes": 
+        {
+            "DVD": {"size" : 299}
+        }
+    } 
+
+####
+
+DELETE https://localhost/backendAPI/main.php
+
+    [
+        "alt00"   
+    ]
