@@ -12,6 +12,8 @@ The `API.php` class acts as the entry point for handling HTTP requests. It route
 
 The ProductController.php class manages the core logic for product-related actions. It handles API requests passed from API.php, including adding, retrieving, and deleting products. It works in conjunction with the `ProductFactory` and `ProductRepo` classes to abstract and manage product operations.
 
+More details in the [Controller Documentation](./controllers/README.md)
+
 ## / core
 
 ### **`ValidateInput.php`**
