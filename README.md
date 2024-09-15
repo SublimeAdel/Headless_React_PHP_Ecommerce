@@ -54,6 +54,8 @@ A web-app containing two pages for:
 
   ![models_UML](https://github.com/user-attachments/assets/0ab598be-b481-4902-ae90-4e0a5dc5f613)
 
+More details in the [Models Documentation](./backend/src/models/README.md)
+
 ### **Core Classes**:
 
 - **ProductRepo**: interacts directly with the database using statements via PDO.
@@ -66,7 +68,7 @@ A web-app containing two pages for:
 
   ![core_UML](https://github.com/user-attachments/assets/27d25cea-3ce0-4993-952e-58e217cd12eb)
 
-More details in the [Backend Documentation](./backend/README.md)
+More details in the [Backend Documentation](./backend/README.md) and [Backend Classes](./backend/src/README.md)
 
 <hr>
 
