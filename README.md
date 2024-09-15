@@ -50,7 +50,7 @@ A web-app containing two pages for:
 - **Product**: Abstract class, serves as the base class, with shared logic for all product types.
 - **Specific Product Classes**: DVD, Book, Furniture, each extend the abstract product class.
 
-  ## Models UML:
+### Models UML:
 
   ![models_UML](https://github.com/user-attachments/assets/0ab598be-b481-4902-ae90-4e0a5dc5f613)
 
@@ -64,7 +64,7 @@ More details in the [Models Documentation](./backend/src/models/README.md)
 - **ValidateInput**: Performs input validation on all user inputs.
 - **API**: A single endpoint to handle user requests, through the controller.
 
-  ## Core Classes UML:
+### Core Classes UML:
 
   ![core_UML](https://github.com/user-attachments/assets/27d25cea-3ce0-4993-952e-58e217cd12eb)
 
@@ -76,7 +76,7 @@ More details in the [Backend Documentation](./backend/README.md) and [Backend Cl
 
   As for the frontend I used REACT and SASS.
 
-  ### Key components:
+### Key components:
 
   - **Homepage**: Displays a list of products fetched from the API, with the ability to mass-delete selected products.
   - **AddProductPage**: A form for adding new products, with dynamic fields based on the selected product type.
@@ -97,7 +97,7 @@ More details in the [Frontend Documentation](./frontend/README.md)
 
   My database is **NF3** normalized and comprises **4** tables:
 
-  ### Entity Relationship Diagram:
+### Entity Relationship Diagram:
 
   ![Screenshot_124](https://github.com/user-attachments/assets/a33be4a4-f72d-4b52-aaf3-afd0bc2041b5)
 
