@@ -39,30 +39,32 @@ A web-app containing two pages for:
 
   I created a backend API that has 3 endpoints:
 
-  ### API Endpoints:
+### API Endpoints:
 
-  - **`GET /main.php`**: Retrieves all a list of all products.
-  - **`POST /main.php`**: Adds a product to the product list using the product data sent in the body of the request.
-  - **`DELETE /main.php`**: mass deletes products by their SKUs which are provided in the body of the request.
+- **`GET /main.php`**: Retrieves all a list of all products.
+- **`POST /main.php`**: Adds a product to the product list using the product data sent in the body of the request.
+- **`DELETE /main.php`**: mass deletes products by their SKUs which are provided in the body of the request.
 
-  ### **Model Classes**:
+### **Model Classes**:
 
-  - **Product**: Abstract class, serves as the base class, with shared logic for all product types.
-  - **Specific Product Classes**: DVD, Book, Furniture, each extend the abstract product class.
-    ## Models UML:
-    ![models_UML](https://github.com/user-attachments/assets/0ab598be-b481-4902-ae90-4e0a5dc5f613)
+- **Product**: Abstract class, serves as the base class, with shared logic for all product types.
+- **Specific Product Classes**: DVD, Book, Furniture, each extend the abstract product class.
 
-  ### **Core Classes**:
+  ## Models UML:
 
-  - **ProductRepo**: interacts directly with the database using statements via PDO.
-  - **ProductFactory**: Factory class, instantiates products based on their type.
-  - **ProductController**: the main application controller, manages adding, removing, and fetching products by utilizing all the other classes.
-  - **ValidateInput**: Performs input validation on all user inputs.
-  - **API**: A single endpoint to handle user requests, through the controller.
+  ![models_UML](https://github.com/user-attachments/assets/0ab598be-b481-4902-ae90-4e0a5dc5f613)
 
-    ## Core Classes UML:
+### **Core Classes**:
 
-    ![core_UML](https://github.com/user-attachments/assets/27d25cea-3ce0-4993-952e-58e217cd12eb)
+- **ProductRepo**: interacts directly with the database using statements via PDO.
+- **ProductFactory**: Factory class, instantiates products based on their type.
+- **ProductController**: the main application controller, manages adding, removing, and fetching products by utilizing all the other classes.
+- **ValidateInput**: Performs input validation on all user inputs.
+- **API**: A single endpoint to handle user requests, through the controller.
+
+  ## Core Classes UML:
+
+  ![core_UML](https://github.com/user-attachments/assets/27d25cea-3ce0-4993-952e-58e217cd12eb)
 
 More details in the [Backend Documentation](./backend/README.md)
 
