@@ -11,7 +11,7 @@
 
 ## About <a name = "about"></a>
 
-This project is a web-app built as a part of a technical assessment. It features a simple product management application.
+This project is a headless (decoupled) web app wherein the backend only provides data through APIs, and the frontend fetches and displays that data independently, often using React. It features a simple product management application.
 
 ### The expected outcome of the test
 
