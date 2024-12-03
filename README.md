@@ -1,4 +1,3 @@
-# Junior Developer Test Task
 
 ## Table of Contents
 
